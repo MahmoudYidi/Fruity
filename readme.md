@@ -8,17 +8,17 @@
 	$ pip install gdown
 	```
 	download:
-	
+	```
 	$ gdown https://drive.google.com/uc?id=1cjavRlhdpzV3SC2px7z_g0-AoVnP3JYf
-
+	```
 	or you can follow this link:
 	
 	https://drive.google.com/file/d/1cjavRlhdpzV3SC2px7z_g0-AoVnP3JYf/view
 	
 	unzip by typing:
-	
+	```
 	$ unzip fruity.zip	
-
+	```
 
 
 
