@@ -4,9 +4,9 @@
 	You can download the dataset (~8GB) by typing the following in your terminal:
 	
 	if you dont already have gdown:
-	
+	```
 	$ pip install gdown
-	
+	```
 	download:
 	
 	$ gdown https://drive.google.com/uc?id=1cjavRlhdpzV3SC2px7z_g0-AoVnP3JYf
