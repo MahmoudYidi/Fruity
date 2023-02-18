@@ -5,11 +5,11 @@
 	
 	if you dont already have gdown:
 	
-	pip install gdown
+	$ pip install gdown
 	
 	download:
 	
-	gdown https://drive.google.com/uc?id=1cjavRlhdpzV3SC2px7z_g0-AoVnP3JYf
+	$ gdown https://drive.google.com/uc?id=1cjavRlhdpzV3SC2px7z_g0-AoVnP3JYf
 
 	or you can follow this link:
 	
@@ -17,7 +17,7 @@
 	
 	unzip by typing:
 	
-	unzip fruity.zip	
+	$ unzip fruity.zip	
 
 
 
