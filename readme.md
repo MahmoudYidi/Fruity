@@ -1,4 +1,4 @@
-#Fruity Dataset Repo
+# Fruity Dataset Repo
 
 1. Downloading the dataset.
 	You can download the dataset (~8GB) by typing the following in your terminal:
