@@ -20,11 +20,18 @@
 	$ unzip fruity.zip	
 	```
 
+2. Two csv's are provided in the dataset. The 'Fruit_Pose' contains the ground truth poses of the fruits, while the 'Poses' in each folder of the dataset contains the camera rig pose per frame. Hence, you can either:
+  
+  i. choose to use the 'poses' on its own if you want to train a model that estimates the camera/vehicle pose or
+  ii. Compute the relative pose between the camera and the target using the script provided for all the frames and for each class if you want to train a model that 	estimates the relative pose of the target (which in most cases is done) and use that instead of 'poses' to train your model.
+  
+  NB: Camera pose = poses.csv, target poses = fruit_poses.csv
+  
+  
 
 
 
-
-2. Using the "relative_pose_comp" script
+3. Using the "relative_pose_comp" script
 
 	It is used for computing the relative transformation between a camera and a target, and then storing the data in a matrix, which is then written to a CSV file.
 
@@ -42,5 +49,5 @@
 
 	Note that this code assumes that the pose data is in a specific format and uses several helper functions, such as 'iMatPts2CellPts' and 'so3_to_su2'.
 
-3. If you find any of this useful, please don't forget to cite accordingly.
+4. If you find any of this useful, please don't forget to cite accordingly.
  
