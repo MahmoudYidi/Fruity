@@ -50,4 +50,6 @@
 	Note that this code assumes that the pose data is in a specific format and uses several helper functions, such as 'iMatPts2CellPts' and 'so3_to_su2'.
 
 4. If you find any of this useful, please don't forget to cite accordingly.
+
+Update: Paper now availabe on IEEE xplore
  
